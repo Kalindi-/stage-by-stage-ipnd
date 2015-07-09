@@ -1,0 +1,48 @@
+
+/*my page*/
+
+body {
+	font-family: Georgia, Helvetica, sans-serif;
+	width: 550px;
+}
+
+h1 {
+	padding-left: 20px;
+}
+
+.fotoalbum,
+.text-line {
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: -moz-flex;
+}
+
+img {
+	height: 100px;
+	width: 100px;
+}
+
+figcaption {
+	color: beige;
+	background-color: darkviolet;
+	margin-bottom: 10px;
+	border-radius: 15px;
+	padding: 3px;
+	text-align: center;
+}
+
+.fotoalbum {
+  justify-content: space-around;
+}
+
+.text-line {
+  position: absolute;
+  bottom: 0;
+  width: 520px;
+  justify-content: space-between;
+  color: lightgray;
+  margin-bottom: -20px;
+}
+
+/*Thank you for checking*/
